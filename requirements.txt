@@ -1,9 +1,25 @@
+# Streamlit - 웹 UI 실행
 streamlit
+
+# LangChain 관련 패키지
 langchain
 langchain_community
-llama-index==0.9.48  # 특정 버전 사용
+langchain_openai  # OpenAI 모델 지원
+
+# LlamaIndex (기존 GPT Index)
+llama-index==0.9.48  # 특정 버전 사용하여 호환성 유지
+
+# 벡터 DB 및 문서 검색
 faiss-cpu
-transformers
 sentence-transformers
+chromadb  # FAISS 대체 가능
+
+# 모델 로딩 및 실행 관련 패키지
+transformers
 openai
+
+# JSON 데이터 처리
 json5
+
+# Pydantic - 버전 문제 해결 (LangChain과 호환되는 1.10.13 사용)
+pydantic==1.10.13
