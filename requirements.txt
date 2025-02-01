@@ -1,7 +1,7 @@
 streamlit
 langchain
 langchain_community
-llama-index
+llama-index==0.5.5  # 버전 명시
 faiss-cpu
 transformers
 sentence-transformers
